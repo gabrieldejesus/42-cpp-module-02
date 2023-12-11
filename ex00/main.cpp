@@ -6,10 +6,19 @@
 /*   By: gde-jesu <gde-jesu@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/10 15:11:52 by gde-jesu          #+#    #+#             */
-/*   Updated: 2023/12/10 15:11:52 by gde-jesu         ###   ########.fr       */
+/*   Updated: 2023/12/10 20:42:41 by gde-jesu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+# include "Fixed.hpp"
+
 int main() {
+  Fixed p1 = Fixed("p1");
+  Fixed p2 = Fixed("p2");
+  Fixed p3 = Fixed("p3");
+  Fixed p4 = Fixed(p2);
+
+  p4 = p3;
+
   return (1);
 }
